@@ -1,0 +1,73 @@
+# ------------------------------------------------------------------------------
+# OS & Editor Files
+# ------------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+.Trash-*
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# ------------------------------------------------------------------------------
+# Symfony / PHP
+# ------------------------------------------------------------------------------
+# Composer dependencies
+/vendor/
+
+# Symfony cache & logs (if stored in var/)
+var/cache/
+var/log/
+var/sessions/
+var/test/
+
+# Build artifacts & coverage reports
+build/
+coverage/
+
+# .env files (local credentials, secrets)
+# Typically you keep .env.example in the repo, but ignore the actual .env files.
+.env
+.env.*
+
+# ------------------------------------------------------------------------------
+# Docker / Containers
+# ------------------------------------------------------------------------------
+# If you store Docker build output, volumes, or any generated files in the project
+docker-compose.override.yml
+docker-compose.prod.yml
+docker/*.env
+docker/data/
+docker/logs/
+docker/tmp/
+*.pid
+
+# ------------------------------------------------------------------------------
+# Node / Frontend
+# ------------------------------------------------------------------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+
+# ------------------------------------------------------------------------------
+# Misc
+# ------------------------------------------------------------------------------
+# Ignore any files that might contain sensitive info or local dev artifacts
+*.local
+*.log
+*.cache
+*.temp
+*.tmp
