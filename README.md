@@ -12,13 +12,8 @@ If you want to replace Symfony version or change the framework completely, just 
 ## Table of Contents
 - [Features](#features)
 - [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Available Services](#available-services)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contacts](#contacts)
 
 ---
 
@@ -33,7 +28,7 @@ If you want to replace Symfony version or change the framework completely, just 
 - **Docker-First Approach**: All configs in a `docker/` directory, ensuring a clean separation between infrastructure and application code.
 
 ---
-
+ 
 ## Project Structure
 
 ```plaintext
@@ -55,9 +50,8 @@ If you want to replace Symfony version or change the framework completely, just 
 │   ├── mysql/
 │   │   └── Dockerfile    # optional
 │   ├── phpmyadmin/
-│   │   └── Dockerfile    # optional
-│   └── psalm/
 │       └── Dockerfile    # optional
+│   
 ├── .gitignore
 ├── docker-compose.yml
 ├── LICENSE
