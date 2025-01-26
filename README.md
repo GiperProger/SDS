@@ -65,21 +65,28 @@ If you want to replace Symfony version or change the framework completely, just 
    git clone https://github.com/GiperProger/SDS.git
    cd SDS
    ```
-2. **Build containers**
+2. **Create env files**
+
+   ```plaintext
+   in the root directory create .env file based on env_example 
+   in the app directory create .env file based on env_example 
+   ```   
+
+3. **Build containers**
 
    ```bash
    docker-compose build
    ```
    
-3. **Start services**
+4. **Start services**
    ```bash
    docker-compose up -d
    ```
-4. **Install Composer Dependencies**
+5. **Install Composer Dependencies**
    ```bash
    docker-compose exec php composer install -d /var/www/html/app
    ```
-5. **Verify setup**
+6. **Verify setup**
    - Visit http://localhost:8080 to check your Symfony app
    - Visit http://localhost:8081 to check PHPMyAdmin
 
