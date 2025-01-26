@@ -68,8 +68,8 @@ If you want to replace Symfony version or change the framework completely, just 
 2. **Create env files**
 
    ```plaintext
-   in the root directory create .env file based on env_example 
-   in the app directory create .env file based on env_example 
+   in the root directory create .env file based on .env_example 
+   in the app directory create .env file based on .env_example 
    ```   
 
 3. **Build containers**
