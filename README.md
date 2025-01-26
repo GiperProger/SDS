@@ -12,13 +12,8 @@ If you want to replace Symfony version or change the framework completely, just 
 ## Table of Contents
 - [Features](#features)
 - [Project Structure](#project-structure)
-- [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Available Services](#available-services)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contacts](#contacts)
 
 ---
 
@@ -29,11 +24,10 @@ If you want to replace Symfony version or change the framework completely, just 
 - **Nginx** container: Serves your app on `localhost:8080`.
 - **MySQL 8** container: Persistent database volume.
 - **phpMyAdmin** container: Manage your database on `localhost:8081`.
-- **Psalm** container (optional): For static analysis and improved code quality.
 - **Docker-First Approach**: All configs in a `docker/` directory, ensuring a clean separation between infrastructure and application code.
 
 ---
-
+ 
 ## Project Structure
 
 ```plaintext
@@ -55,9 +49,8 @@ If you want to replace Symfony version or change the framework completely, just 
 │   ├── mysql/
 │   │   └── Dockerfile    # optional
 │   ├── phpmyadmin/
-│   │   └── Dockerfile    # optional
-│   └── psalm/
 │       └── Dockerfile    # optional
+│   
 ├── .gitignore
 ├── docker-compose.yml
 ├── LICENSE
@@ -69,8 +62,8 @@ If you want to replace Symfony version or change the framework completely, just 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/symfony-docker-skeleton.git
-   cd symfony-docker-skeleton
+   git clone https://github.com/GiperProger/SDS.git
+   cd SDS
    ```
 2. **Build containers**
 
